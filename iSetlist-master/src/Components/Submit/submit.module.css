@@ -1,0 +1,30 @@
+.Container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-flow: column;
+  width: 70%;
+}
+
+.Button {
+  border-radius: 5px;
+  display: inline-block;
+  border: 1px solid rgb(197, 197, 197);
+  margin: 40px 25px;
+  width: 100px;
+  height: 40px;
+  transition: background-color 0.3s;
+  cursor: pointer;
+}
+
+.Button:active {
+  transform: scale(0.98);
+}
+
+.Button:focus {
+  outline: 0;
+}
+
+.Button:hover {
+  background-color: #008cff8a;
+}
